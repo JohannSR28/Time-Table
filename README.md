@@ -7,8 +7,6 @@ Un programme de gestion des cours pour créer des horaires personnalisés en pre
 1. [Configuration](#configuration)
 2. [Utilisation](#utilisation)
 3. [Fonctionnalités](#fonctionnalités)
-4. [Structure de données](#contribution)
-
 
 ## Configuration
 Après avoir télécharger le ficher Time-table, ouvrez le dossier dans votre IDE, puis rendez au fichier Main.java situé comme suit :
@@ -38,6 +36,3 @@ Une série de test apparaîtra dès la fermerture du programme.
 - Ajouter, modifier ou supprimer un ou plusieur cours pour un horaire d'étudiant.
 - Créer un horaire personnalisé en prenant en compte les conflits d'horaire.
 - Affiche l'horaire créé ou les messages de conflits, le cas échéant.
-
-## Structures de Données
-Utilisez les structures de données appropriées pour stocker les données.
