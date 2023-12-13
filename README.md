@@ -16,3 +16,27 @@ Décrivez les étapes nécessaires pour configurer et exécuter le programme. In
 ```bash
 # Exemple d'instructions d'installation ou de configuration
 npm install
+```
+## Utilisation
+Expliquez comment utiliser le programme, en fournissant des exemples de commandes ou de scénarios d'utilisation.
+```bash
+# Exemple de commande pour lancer le programme
+python main.py
+```
+
+## Fonctionnalités
+### 1 - Gestion des Cours
+a) Ajouter, modifier ou supprimer un ensemble de cours candidats (maximum 10 cours) pour un horaire d'étudiant.
+b) Créer un horaire personnalisé en prenant en compte les conflits d'horaire.
+
+# 2 - Afficher l'Horaire
+Affiche l'horaire créé ou les messages de conflits, le cas échéant.
+
+# 3 - Utilisation de Classes API
+Utilisez les classes de l'API (par exemple, la classe Calendar) pour modéliser les dates.
+
+# 4 - Gestion des Erreurs
+Utilisez les exceptions pour valider les entrées et gérer les erreurs.
+
+# 5 -Structures de Données
+Utilisez les structures de données appropriées pour stocker les données.
