@@ -1,42 +1,42 @@
-# Nom de votre Projet
+# Time-Table
 
 ## Description
-Un programme de gestion des cours pour créer des horaires personnalisés en prenant en compte les conflits d'horaire et les contraintes spécifiées.
+Un programme de gestion des cours pour créer des horaires personnalisés en prenant en compte les conflits d'horaires et .
 
 ## Table des matières
 1. [Configuration](#configuration)
 2. [Utilisation](#utilisation)
 3. [Fonctionnalités](#fonctionnalités)
-4. [Contribution](#contribution)
-5. [Licence](#licence)
+4. [Structure de données](#contribution)
+
 
 ## Configuration
-Décrivez les étapes nécessaires pour configurer et exécuter le programme. Incluez les dépendances, les bibliothèques nécessaires et toute configuration spécifique.
-
 ```bash
-# Exemple d'instructions d'installation ou de configuration
-npm install
+Après avoir télécharger le ficher Time-table, ouvrez le dossier dans votre IDE, puis rendez au fichier Main.java situé comme suit :
+tp1/src/tp1/umontreal/timeTable/Main.java
+Appuyer ensuite sur le bouton "Run" pour démarrer l'application.
 ```
 ## Utilisation
-Expliquez comment utiliser le programme, en fournissant des exemples de commandes ou de scénarios d'utilisation.
+Le programme permet de générer un emploi du temps pour la semaine. 
+Un menu s’affiche et l’utilisateur interagit avec le programme en entrant certain chiffre qui vont 
+réaliser certaines actions précises. 
+Au démarrage de l'application un menu s'affiche et permet d'utiliser les diverses fonctionnalités.
 ```bash
-# Exemple de commande pour lancer le programme
-python main.py
+Présentation du menu : 
+1- Voir les Cour(s) Disponible(s) / Cour(s) inscrit(s)  
+2- Inscrire un etudiant a un cour  
+3- Creer un cour  
+4- Modifier un cour 
+5- Voir les details d'un cours 
+6- Voir l'emploi du temps 
+7- Fermer le programme  
 ```
+Une série de test apparaîtra dès la fermerture du programme.
 
 ## Fonctionnalités
-### 1 - Gestion des Cours
-a) Ajouter, modifier ou supprimer un ensemble de cours candidats (maximum 10 cours) pour un horaire d'étudiant.
-b) Créer un horaire personnalisé en prenant en compte les conflits d'horaire.
+- Ajouter, modifier ou supprimer un ou plusieur cours pour un horaire d'étudiant.
+- Créer un horaire personnalisé en prenant en compte les conflits d'horaire.
+- Affiche l'horaire créé ou les messages de conflits, le cas échéant.
 
-# 2 - Afficher l'Horaire
-Affiche l'horaire créé ou les messages de conflits, le cas échéant.
-
-# 3 - Utilisation de Classes API
-Utilisez les classes de l'API (par exemple, la classe Calendar) pour modéliser les dates.
-
-# 4 - Gestion des Erreurs
-Utilisez les exceptions pour valider les entrées et gérer les erreurs.
-
-# 5 -Structures de Données
+## Structures de Données
 Utilisez les structures de données appropriées pour stocker les données.
