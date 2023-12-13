@@ -1,7 +1,7 @@
 # Time-Table
 
 ## Description
-Un programme de gestion des cours pour créer des horaires personnalisés en prenant en compte les conflits d'horaires et .
+Un programme de gestion des cours pour créer des horaires personnalisés en prenant en compte les conflits d'horaires.
 
 ## Table des matières
 1. [Configuration](#configuration)
@@ -11,11 +11,12 @@ Un programme de gestion des cours pour créer des horaires personnalisés en pre
 
 
 ## Configuration
-```bash
 Après avoir télécharger le ficher Time-table, ouvrez le dossier dans votre IDE, puis rendez au fichier Main.java situé comme suit :
+```bash
 tp1/src/tp1/umontreal/timeTable/Main.java
-Appuyer ensuite sur le bouton "Run" pour démarrer l'application.
 ```
+Appuyer ensuite sur le bouton "Run" pour démarrer l'application.
+
 ## Utilisation
 Le programme permet de générer un emploi du temps pour la semaine. 
 Un menu s’affiche et l’utilisateur interagit avec le programme en entrant certain chiffre qui vont 
